@@ -1,0 +1,7 @@
+<app-sidenav style="z-index: 1;"></app-sidenav>
+
+<div class="content" style="position: fixed;" (click)="close()">
+ 
+  <router-outlet></router-outlet>
+</div>
+<div style="z-index: 50;"><button (click)="open()">Open</button></div>
